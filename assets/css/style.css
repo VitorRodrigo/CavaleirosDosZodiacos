@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    max-width: auto;
+    text-decoration: none;
+ }
+body{
+    background-image: url(../imagens/foto-de-fundo.png);
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+.cabecalho img{ 
+    width: 350px;
+}
+.principal{
+    display:flex;
+}
+.personagem{
+    margin-top: 50px;
+    
+    width: 50%;
+}
+.personagem img{
+    width: auto;
+    height: 550px;
+    margin-left: 150px;
+    transition: 0.2;
+}
+.menu{
+    display: inline-block;
+}
+.menu h1{
+    display: flex;
+    font-family: 'Roboto Serif',serif;
+    color: #82acce;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 40px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+.menu-personagens{
+    margin-top: 50px;
+}
+.menu-personagens ul li {
+    display:inline-block;
+    margin-left: 10px;
+    border: solid 2px rgb(8, 8, 8);
+    cursor: pointer;
+}
+    .menu-personagens li img{
+        display: flex;
+        width: 150px;
+    }
+    .menu-personagens ul li:hover{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+         }
+.nome{
+    
+    background-color: aquamarine;
+    display: flex;
+    height: 30px;
+    width: 500px;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-top: %;
+    left: -20px;
+}
+.nome h2{
+    font-family: 'Roboto Serif',serif;
+    margin-top: -20px;
+    color: rgb(3, 3, 3);
+    font-size: 50px;
+}
